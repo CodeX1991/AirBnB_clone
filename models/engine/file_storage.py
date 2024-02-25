@@ -56,6 +56,6 @@ class FileStorage:
 
                         cls = eval(cls_name)
                         instance = cls(**value)
-                        FileStorage.__objects[key] = instance
+                        # FileStorage.__objects[key] = instance
                 except Exception:
                     pass
